@@ -8,6 +8,7 @@
     tools:context=".MenuActivity">
 
     <ImageView
+        android:id="@+id/title"
         android:layout_width="241dp"
         android:layout_height="wrap_content"
         android:scaleType="centerInside"
@@ -35,6 +36,7 @@
         android:paddingHorizontal="50dp"
         >
         <Button
+            android:id="@+id/btnColdDrinks"
             android:text="@string/cold_drinks"
             android:textColor="@color/dusty_white"
             android:background="@drawable/first_gradient"
@@ -47,6 +49,7 @@
             />
 
         <Button
+            android:id="@+id/btnHotDrinks"
             android:text="@string/hot_drinks"
             android:textColor="@color/dusty_white"
             android:background="@drawable/first_gradient"
@@ -59,6 +62,7 @@
             />
 
         <Button
+            android:id="@+id/btnSweets"
             android:text="@string/swweets"
             android:textColor="@color/dusty_white"
             android:background="@drawable/second_gradient"
@@ -71,6 +75,7 @@
             />
 
         <Button
+            android:id="@+id/btnSalties"
             android:text="@string/salties"
             android:textColor="@color/dusty_white"
             android:background="@drawable/second_gradient"
@@ -83,6 +88,7 @@
             />
 
         <Button
+            android:id="@+id/btnCombos"
             android:text="@string/combos"
             android:textColor="@color/dusty_white"
             android:background="@drawable/third_gradient"
@@ -95,6 +101,7 @@
             />
 
         <Button
+            android:id="@+id/btnCustom"
             android:text="@string/customizable"
             android:textColor="@color/dusty_white"
             android:background="@drawable/third_gradient"
